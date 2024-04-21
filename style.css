@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container{
+    max-width: 90%;
+    margin: 0 auto;
+    padding:3vw;
+}
+
+.random-colors{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    grid-gap:1.5em;
+}
+
+.random-card{
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    border-radius:5px;
+    overflow: hidden;
+}
+
+.color-box{
+    background-color: red;
+    padding-top:80%;
+}
+
+.color-data{
+    padding: 1em;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+}
+
+.color-code{
+    font-weight: bold;
+}
